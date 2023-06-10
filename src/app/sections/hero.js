@@ -106,6 +106,7 @@ const Hero = () => {
       <div className="relative isolate overflow-hidden pt-14">
         <Image
           src="/desktop-background.png"
+          priority
           fill
           alt=""
           className="absolute inset-0 -z-10 h-full w-full object-cover opacity-60"
