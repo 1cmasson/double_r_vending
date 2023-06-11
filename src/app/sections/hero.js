@@ -111,14 +111,13 @@ const Hero = () => {
           alt=""
           className="absolute inset-0 -z-10 h-full w-full object-cover opacity-60"
         />
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              Data to enrich your online business
+            Convenient Vending Solutions for Businesses
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
+            Welcome to Double R Vending, where convenience meets satisfaction. Discover our premium vending services designed to elevate your workplace experience and cater to your cravings. From delectable snacks to refreshing beverages, we've got your cravings covered. Elevate your break time with us today!
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
