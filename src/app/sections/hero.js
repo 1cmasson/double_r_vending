@@ -117,7 +117,7 @@ const Hero = () => {
             Convenient Vending Solutions for Businesses
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-            Welcome to Double R Vending, where convenience meets satisfaction. Discover our premium vending services designed to elevate your workplace experience and cater to your cravings. From delectable snacks to refreshing beverages, we've got your cravings covered. Elevate your break time with us today!
+            Welcome to Double R Vending, where convenience meets satisfaction. Discover our premium vending services designed to elevate your workplace experience and cater to your cravings. From delectable snacks to refreshing beverages, we&apos;ve got your cravings covered. Elevate your break time with us today!
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
