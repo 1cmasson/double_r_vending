@@ -44,7 +44,7 @@ const people = [
               <li key={person.name} className="flex flex-col gap-10 pt-12 sm:flex-row">
                 <Image className="w-40 flex-none" width={200} height={200} src={person.imageUrl} alt="" />
                 <div className="max-w-xl flex-auto">
-                  <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900">{person.name} <em className="font-normal italic text-base">Model #{person?.model}</em></h3>
+                  <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900">{person.name} <em className="font-normal italic text-base">Model #{person?.model}</em></h3>/_next/image
                   <p className="font-semibold leading-7 text-green-700">{person.role}</p>
                   <p className="mt-6 text-base leading-7 text-gray-600">{person.bio}</p>
                 </div>
