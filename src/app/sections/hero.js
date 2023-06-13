@@ -7,10 +7,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'About Us', href: '#about' },
+  { name: 'Products', href: '#products' },
+  { name: 'Machines', href: '#machines' },
 ]
 
 const Hero = () => {
@@ -49,8 +48,8 @@ const Hero = () => {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
-              Log in <span aria-hidden="true">&rarr;</span>
+            <a href="#" className="text-sm bg-green-600 rounded  px-4 py-2 font-semibold leading-6 text-white hover:bg-yellow-300 hover:text-black">
+              Contact Us
             </a>
           </div>
         </nav>
@@ -59,7 +58,7 @@ const Hero = () => {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
+                <span className="sr-only">Double R Vending</span>
                 <Image
                   src="/logo.svg"
                   height={150}
@@ -83,16 +82,18 @@ const Hero = () => {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-800"
+                      className="-mx-3 block"
                     >
-                      {item.name}
+                      <button className='flex justify-start rounded-lg px-3 py-2 h-full w-full hover:bg-gray-200 active:bg-gray-200' onClick={() => setMobileMenuOpen(false)}>
+                        <span className='text-base left-0 font-semibold leading-7 text-black'>{item.name}</span>
+                      </button>
                     </a>
                   ))}
                 </div>
                 <div className="py-6">
                   <a
                     href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-black hover:bg-gray-800"
+                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-black hover:bg-gray-200"
                   >
                     Contact Us
                   </a>
@@ -121,13 +122,10 @@ const Hero = () => {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
-                className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                href="#contact"
+                className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-300 hover:text-black"
               >
                 Get started
-              </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-white">
-                Learn more <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>

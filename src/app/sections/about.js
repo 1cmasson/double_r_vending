@@ -44,7 +44,7 @@ const About = () => {
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 text-sm leading-6 text-gray-300">
-                  <strong className="font-semibold text-white">Rey ,</strong> Founder of Double R Vending
+                  <strong className="font-semibold text-white">Reinaldo Alvarez ,</strong> Owner of Double R Vending
                 </figcaption>
               </figure>
             </div>

@@ -7,7 +7,7 @@ const people = [
         model:'246',
         imageUrl:
           '/snack-machine.png',
-        bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+        bio: 'This machine combines compact convenience with a wide selection of 44 choices. Designed to maximize space efficiency, it is an ideal solution for small offices, factories, and waiting rooms. With its versatility, this machine offers diverse options to cater to different preferences, ensuring a satisfying experience in limited areas.',
       },
       {
         name: 'BevMAX MEDIA2',
@@ -15,7 +15,7 @@ const people = [
         model:'5800',
         imageUrl:
           '/beverage-machine2.png',
-        bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+        bio: 'Enjoy a diverse selection of 35 beverages in various sizes, akin to a convenience store offering. With its integrated cashless system and a 9\' touchscreen, indulge in an interactive experience with cart purchasing, nutrition details, and more. This industry-leading beverage machine sets the bar high for today\'s market.',
       },
       {
         name: 'Crane Shopper',
@@ -23,7 +23,7 @@ const people = [
         model:'432',
         imageUrl:
           '/sandwich-machine.png',
-        bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+        bio: 'Delivering remarkable features within a compact footprint, offering 44 diverse selections to maximize variety in limited spaces. This versatile machine proves to be an excellent choice for small offices, factories, and waiting rooms, providing convenience and options in compact environments.',
       }
   ]
   
@@ -44,7 +44,7 @@ const people = [
               <li key={person.name} className="flex flex-col gap-10 pt-12 sm:flex-row">
                 <Image className="w-40 flex-none" width={200} height={200} src={person.imageUrl} alt="" />
                 <div className="max-w-xl flex-auto">
-                  <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900">{person.name} <em className="font-normal italic text-base">Model #{person?.model}</em></h3>/_next/image
+                  <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900">{person.name} <em className="font-normal italic text-base">Model #{person?.model}</em></h3>
                   <p className="font-semibold leading-7 text-green-700">{person.role}</p>
                   <p className="mt-6 text-base leading-7 text-gray-600">{person.bio}</p>
                 </div>
