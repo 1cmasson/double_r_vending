@@ -16,7 +16,7 @@ const Contact = () => {
                   <BuildingOffice2Icon className="h-7 w-6 text-white" aria-hidden="true" />
                 </dt>
                 <dd>
-                  35 NE Ninth Ct
+                  25 E 9th Ct
                   <br />
                   Hialeah, FL 33010
                 </dd>

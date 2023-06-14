@@ -40,7 +40,6 @@ const people = [
   
   const Products = () => {
     return (
-      <section id="products">
       <div className="bg-gray-200">
         <img className="relative" src="white-wave.svg"/>
         <div className="py-24 sm:py-32">
@@ -74,7 +73,6 @@ const people = [
       </div>
       <img className="relative rotate-180" src="white-wave.svg"/>
       </div>
-      </section>
     )
   }
   

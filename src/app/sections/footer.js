@@ -45,7 +45,7 @@ const  Footer = () => {
                 <div className="grid grid-rows-3 gap-1 items-center">
                   <div>
                     <div className="font-semibold text-green-800">Office</div>
-                    35 NE Ninth Ct
+                    25 E 9th Ct
                     <br />
                     Hialeah, FL 33010
                   </div>
