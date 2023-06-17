@@ -24,16 +24,18 @@ const Hero = () => {
               <span className="sr-only">Double R Vending</span>
               <Image
                 src="/logo2.svg"
-                height={180}
+                priority
+                style={{ width: 'auto', height: 'auto' }}
+                height={70}
                 width={180}
-                alt=""
+                alt="Double R Vending Logo"
               />
             </a>
           </div>
           <div className="flex lg:hidden">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white focus-visible:outline-none focus-within:text-yellow-300"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -63,7 +65,8 @@ const Hero = () => {
                   src="/logo.svg"
                   height={150}
                   width={150}
-                  alt=""
+                  priority
+                  alt="Double R Vending Logo"
                 />
               </a>
               <button
@@ -92,10 +95,13 @@ const Hero = () => {
                 </div>
                 <div className="py-6">
                   <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-black hover:bg-gray-200"
+                    href="#contact"
+                    title='Contact Us'
+                    className="-mx-3 block"
                   >
-                    Contact Us
+                    <button className='flex justify-start rounded-lg px-3 py-2 h-full w-full hover:bg-gray-200 active:bg-gray-200' onClick={() => setMobileMenuOpen(false)}>
+                        <span className='text-base left-0 font-semibold leading-7 text-black'>Contact Us</span>
+                    </button>
                   </a>
                 </div>
               </div>
@@ -109,7 +115,7 @@ const Hero = () => {
           src="/desktop-background.png"
           priority
           fill
-          alt=""
+          alt="snacks inside a vending machine"
           className="absolute inset-0 -z-10 h-full w-full object-cover opacity-60"
         />
         <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56">
@@ -122,10 +128,12 @@ const Hero = () => {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#contact"
-                className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-300 hover:text-black"
+                href="#contact" 
+                title='Get Started'
               >
-                Get started
+                <button type='button' className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-300 focus-visible:bg-yellow-300 focus-visible:text-black hover:text-black">
+                  Get started
+                </button>
               </a>
             </div>
           </div>

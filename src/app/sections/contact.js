@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
             <h2 className="text-3xl font-bold tracking-tight text-white mb-10">Contact Us</h2>
-            <iframe className="rounded-3xl my-9 h-full shadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1838794.2175597558!2d-81.580512375!3d25.823527800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0bbadef6bbb%3A0x3dd5242b862d2931!2s25%20E%209th%20Ct%2C%20Hialeah%2C%20FL%2033010!5e0!3m2!1sen!2sus!4v1686535347164!5m2!1sen!2sus" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe title="Google Maps location of Double R Vending"className="rounded-3xl my-9 h-full shadow border-0 block" src="https://www.google.com/maps/embed?z-14&pb=!1m14!1m8!1m3!1d7355176.85781452!2d-80.262153!3d25.823528!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0bbadef6bbb%3A0x3dd5242b862d2931!2s25%20E%209th%20Ct%2C%20Hialeah%2C%20FL%2033010!5e0!3m2!1sen!2sus!4v1686945514638!5m2!1sen!2sus" width="300" height="300" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
             <dl className="mt-10 space-y-4 text-base leading-7 text-white">
               <div className="flex gap-x-4">
                 <dt className="flex-none">
@@ -123,7 +123,7 @@ const Contact = () => {
             <div className="mt-8 flex justify-end">
               <button
                 type="submit"
-                className="rounded-md bg-white px-3.5 py-2.5 text-center text-sm font-semibold text-green-700 shadow-sm hover:bg-yellow-300 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                className="rounded-md bg-white px-3.5 py-2.5 text-center text-sm font-semibold text-[#0B652D] shadow-sm hover:bg-yellow-300 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-300"
               >
                 Send message
               </button>
