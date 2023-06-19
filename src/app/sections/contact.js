@@ -28,7 +28,7 @@ const Contact = () => {
                 </dt>
                 <dd>
                   <a className="hover:text-gray-300" href="tel:+1 (786) 423-1818">
-                    +1 (786) 423-1818
+                    +1 (305) 710-1818
                   </a>
                 </dd>
               </div>
@@ -124,7 +124,7 @@ const Contact = () => {
             <div className="mt-8 flex justify-end">
               <button
                 type="submit"
-                className="rounded-md bg-white px-3.5 py-2.5 text-center text-sm font-semibold text-[#0B652D] shadow-sm hover:bg-yellow-300 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-300"
+                className="rounded-md bg-white px-3.5 py-2.5 text-center text-sm font-semibold text-[#0B652D] shadow-sm hover:bg-yellow-300 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-300 focus-visible:bg-yellow-300 focus-visible:text-black"
               >
                 Send message
               </button>

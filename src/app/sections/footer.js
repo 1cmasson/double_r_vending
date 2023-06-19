@@ -51,7 +51,7 @@ const  Footer = () => {
                   </div>
                   <div>
                     <div className="text-green-800 font-semibold">Phone</div>
-                    <a className="hover:text-gray-300 font-normal" href="tel:+1 (786) 423-1818">+1 (786) 423-1818</a>
+                    <a className="hover:text-gray-300 font-normal" href="tel:+1 (786) 423-1818">+1 (305) 710-1818</a>
                   </div>
                   <div>
                   <div className="text-green-800 text-sm font-semibold">Email</div> 
