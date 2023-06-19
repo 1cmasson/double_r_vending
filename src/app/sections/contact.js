@@ -27,7 +27,7 @@ const Contact = () => {
                   <PhoneIcon className="h-7 w-6 text-white" aria-hidden="true" />
                 </dt>
                 <dd>
-                  <a className="hover:text-gray-300" href="tel:+1 (786) 423-1818">
+                  <a className="hover:text-gray-300" href="tel:+1 (305) 710-1818">
                     +1 (305) 710-1818
                   </a>
                 </dd>
