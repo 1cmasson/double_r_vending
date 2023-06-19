@@ -35,7 +35,7 @@ const Hero = () => {
           <div className="flex lg:hidden">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white focus-visible:outline-none focus-within:text-yellow-300"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white focus-visible:outline-none focus-visible:text-yellow-300"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -50,7 +50,7 @@ const Hero = () => {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#contact" className="text-sm bg-green-600 rounded  px-4 py-2 font-semibold leading-6 text-white hover:bg-yellow-300 hover:text-black">
+            <a href="#contact" className="text-sm bg-green-600 rounded  px-4 py-2 font-semibold leading-6 shadow-sm hover:bg-yellow-300  hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-300 focus-visible:bg-yellow-300 focus-visible:text-black">
               Contact Us
             </a>
           </div>
@@ -97,7 +97,7 @@ const Hero = () => {
                   <a
                     href="#contact"
                     title='Contact Us'
-                    className="-mx-3 block"
+                    className="-mx-3 block "
                   >
                     <button className='flex justify-start rounded-lg px-3 py-2 h-full w-full hover:bg-gray-200 active:bg-gray-200' onClick={() => setMobileMenuOpen(false)}>
                         <span className='text-base left-0 font-semibold leading-7 text-black'>Contact Us</span>
@@ -130,10 +130,9 @@ const Hero = () => {
               <a
                 href="#contact" 
                 title='Get Started'
+                className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-300  hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-300 focus-visible:bg-yellow-300 focus-visible:text-black"
               >
-                <button type='button' className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-300 focus-visible:bg-yellow-300 focus-visible:text-black hover:text-black">
                   Get started
-                </button>
               </a>
             </div>
           </div>
