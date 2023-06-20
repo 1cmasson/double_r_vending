@@ -1,5 +1,5 @@
 'use client';
-
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 import React, { useState } from 'react'
 import Image from 'next/image'
 import { Dialog } from '@headlessui/react'
@@ -16,7 +16,12 @@ const Hero = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-gray-900">
+    <>
+      <TawkMessengerReact
+          propertyId="6491f95994cf5d49dc5ee0ae"
+          widgetId="1h3d3c1h6"
+        />
+        <div className="bg-gray-900">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
@@ -140,6 +145,7 @@ const Hero = () => {
         <div className='bg-black relative top-0 left-0 h-full w-full opacity-8'/>
       </div>
     </div>
+    </>
   )
 }
 
