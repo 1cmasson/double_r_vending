@@ -19,7 +19,6 @@ export default function RootLayout({
       <Head>
         <meta charSet="utf-8" />
 		    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
         <link rel="icon"  type="image/svg+xml" href="/favicon.svg"/>
       </Head>
       <body className={inter.className}>{children}</body>

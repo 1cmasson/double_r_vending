@@ -33,7 +33,7 @@ const products = [
         altTag:"a can of Pilon expresso coffee"
       },
       {
-        name: 'Cold Snacks',
+        name: 'Sandwiches',
         menuUrl: 'https://nebula.wsimg.com/04a6239b57652a84b89ad96dc8a3a756?AccessKeyId=099683943F8980B51AC6&disposition=0&alloworigin=1',
         imageUrl:'/sandwich.svg',
         altTag:"a ham and cheese crossiant sandwich"

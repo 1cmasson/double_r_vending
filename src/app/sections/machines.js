@@ -4,7 +4,7 @@ const machines = [
       {
         make: 'Crane Merchant Media',
         machineType: 'Snack Machine',
-        model:'246',
+        model:'186 (4-wide) / #187 (6-wide)',
         imageUrl:'/snack-machine.png',
         description: 'This machine combines compact convenience with a wide selection of 44 choices. Designed to maximize space efficiency, it is an ideal solution for small offices, factories, and waiting rooms. With its versatility, this machine offers diverse options to cater to different preferences, ensuring a satisfying experience in limited areas.',
         altTag:'snack machines in Miami'
@@ -12,7 +12,7 @@ const machines = [
       {
         make: 'BevMAX MEDIA2',
         machineType: 'Beverage Machine',
-        model:'5800',
+        model:'723 (Narrow) / #713 (Wide)',
         imageUrl:'/beverage-machine2.png',
         description: 'Enjoy a diverse selection of 35 beverages in various sizes, akin to a convenience store offering. With its integrated cashless system and a 9\' touchscreen, indulge in an interactive experience with cart purchasing, nutrition details, and more. This industry-leading beverage machine sets the bar high for today\'s market.',
         altTag:'beverage machines in Miami'

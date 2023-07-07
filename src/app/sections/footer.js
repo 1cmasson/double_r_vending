@@ -13,7 +13,7 @@ const products = [
   {name:"Traditional Snacks"},
   {name:"Healthy Snacks"},
   {name:"Coffee Products"},
-  {name:"Cold Meals"},
+  {name:"Sandwiches"},
   {name:"School Snacks"}
 ]
 
