@@ -4,10 +4,10 @@ import { LifebuoyIcon, NewspaperIcon, PhoneIcon } from '@heroicons/react/20/soli
 const stats = [
 
 
-    { label: 'Founded', value: '2000' },
-    { label: 'Employees', value: '37' },
-    { label: 'Schools', value: '32' },
-    { label: 'Locations', value: '400+' },
+    { label: 'Founded', value: '2001' },
+    { label: 'Employees', value: '10' },
+    { label: 'Locations', value: '100+' },
+    { label: 'Machines', value: '400+' },
   ]
 
 const About = () => {
