@@ -126,7 +126,7 @@ const Hero = () => {
         <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-            Vending Machine Maintenance Services in Miami
+            Vending Machine Maintenance Services in Miami, FL
             </h1>
             <p className="mt-6 text-lg leading-8 text-white">
             Welcome to Double R Vending, where convenience meets satisfaction. Discover our premium vending services designed to elevate your workplace experience and cater to your cravings. From delectable snacks to refreshing beverages, we&apos;ve got your cravings covered. Elevate your break time with us today!

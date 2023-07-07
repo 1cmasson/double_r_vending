@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Double R Vending',
-  description: 'Vending Services in Miami',
+  description: 'Vending Machine Maintenance Services in Miami, FL',
 }
 
 export default function RootLayout({
