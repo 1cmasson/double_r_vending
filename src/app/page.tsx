@@ -1,22 +1,20 @@
+'use client'
 import Hero from './sections/hero';
-import About from './sections/about';
+import TawkToWrapper from './sections/tawt-to';
+import Video from './sections/video';
+import About from './about/page';
 import Contact from './sections/contact';
-import Products from './sections/products';
 import Footer from './sections/footer';
-import Machines from './sections/machines';
+// import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-const Home = () => {
+
+const App = () => {
   return (
       <main>
         <Hero/>
+        <TawkToWrapper/>
         <section id='about'>
-          <About/>
-        </section>
-        <section id='products'>
-          <Products/>
-        </section>
-        <section id='machines'>
-          <Machines/>
+          <Video/>
         </section>
         <section id='contact'>
           <Contact/>
@@ -26,4 +24,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default App;

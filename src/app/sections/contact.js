@@ -3,7 +3,8 @@ import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/2
 
 const Contact = () => {
   return (
-    <div className="relative isolate bg-[#337842]">
+    <>
+      <div className="relative isolate bg-[#337842]">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
@@ -133,6 +134,10 @@ const Contact = () => {
         </form>
       </div>
     </div>
+    {/* <svg  className="relative rotate-180" viewBox="0 0 1439 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fillRule="evenodd" clipRule="evenodd" d="M1440 54.5205L1380.26 85.6751C1320.52 118.128 1198.97 181.735 1079.48 190.822C960 199.908 840.515 154.475 718.97 122.022C599.485 90.8675 480 72.694 360.515 67.5016C238.97 63.6072 119.485 72.694 59.7426 76.5883L0 81.7807V0H59.7426C119.485 0 238.97 0 360.515 0C480 0 599.485 0 718.97 0C840.515 0 960 0 1079.48 0C1198.97 0 1320.52 0 1380.26 0H1440V54.5205Z" fill="white"/>
+    </svg> */}
+    </>
   )
 }
 

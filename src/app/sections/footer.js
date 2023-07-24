@@ -24,9 +24,9 @@ const machines = [
   {name:"Sandwich Machines"},
 ]
 
-const  Footer = () => {
+const Footer = () => {
   return (
-    <footer className="bg-white" aria-labelledby="footer-heading">
+    <footer className="bg-gray-200" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>

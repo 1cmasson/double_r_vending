@@ -41,7 +41,7 @@ const machines = [
           </div>
           <ul role="list" className="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3">
             {machines.map((machine) => (
-              <li key={machine.name} className="flex flex-col gap-10 pt-12 sm:flex-row">
+              <li key={machine.make} className="flex flex-col gap-10 pt-12 sm:flex-row">
                 <Image className="w-40 flex-none" width={200} height={200} src={machine.imageUrl} alt="" />
                 <div className="max-w-xl flex-auto">
                   <h3 className="text-xl font-bold leading-8 tracking-tight text-gray-900">{machine.make} <em className="font-normal italic text-base">Model #{machine.model}</em></h3>
