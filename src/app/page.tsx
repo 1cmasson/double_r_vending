@@ -2,7 +2,7 @@
 import Hero from './sections/hero';
 import TawkToWrapper from './sections/tawt-to';
 import Video from './sections/video';
-import About from './about/page';
+import Partners from './sections/partners';
 import Contact from './sections/contact';
 import Footer from './sections/footer';
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -15,6 +15,9 @@ const App = () => {
         <TawkToWrapper/>
         <section id='about'>
           <Video/>
+        </section>
+        <section id='partners'>
+          <Partners/>
         </section>
         <section id='contact'>
           <Contact/>
