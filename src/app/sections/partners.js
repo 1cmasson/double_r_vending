@@ -9,7 +9,7 @@ const Partners = () => {
               <div className="mx-auto w-full max-w-xl lg:mx-0">
                 <h2 className="text-3xl font-bold tracking-tight text-green-700">We are proud to announce our partnership </h2>
                 <p className="mt-6 text-lg leading-8 text-gray-800">
-                  We are officially exclusive distributors of Yogusto's yogurt products. Starting September 2023, all of our vending machines will be supplied with Yogusto products.
+                  We are officially exclusive distributors of Yogusto&apos;s yogurt products. Starting September 2023, all of our vending machines will be supplied with Yogusto products.
                 </p>
               </div>
                 <a  classname="mx-auto flex w-full max-w-xl" href='https://www.yogusto.com/' title='Yogusto'>
