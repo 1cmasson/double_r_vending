@@ -32,6 +32,8 @@ export default function RootLayout({
           gtag('config', 'G-FGWTDY8GW1');
         `}
       </Script>
+      <Script src="//widget.manychat.com/114420448381528.js" defer={true}></Script>
+      <Script src="https://mccdn.me/assets/js/widget.js" defer={true}></Script>
       <body className={inter.className}>{children}</body>
     </html>
   )

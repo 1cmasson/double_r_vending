@@ -13,9 +13,9 @@ const App = () => {
   return (
       <main>
         <Hero/>
-        <FacebookProvider appId="1729047264226575" chatSupport>
+        {/* <FacebookProvider appId="1729047264226575" chatSupport>
           <CustomChat pageId="114420448381528" minimized={true}/>
-        </FacebookProvider> 
+        </FacebookProvider>  */}
         <section id='about'>
           <Video/>
         </section>
