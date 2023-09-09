@@ -12,7 +12,7 @@ const Partners = () => {
                   We are officially exclusive distributors of Yogusto&apos;s yogurt products. Starting September 2023, all of our vending machines will be supplied with Yogusto products.
                 </p>
               </div>
-                <a  classname="mx-auto flex w-full max-w-xl" href='https://www.yogusto.com/' title='Yogusto'>
+                <a  className="mx-auto flex w-full max-w-xl" href='https://www.yogusto.com/' title='Yogusto'>
                     <Image
                     className="max-h-32 w-full"
                     src="/yogusto.svg"

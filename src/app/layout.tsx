@@ -21,6 +21,8 @@ export default function RootLayout({
         <meta charSet="utf-8" />
 		    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon"  type="image/svg+xml" href="/favicon.svg"/>
+        <script src="//widget.manychat.com/114420448381528.js" defer={true}></script>
+        <script src="https://mccdn.me/assets/js/widget.js" defer={true}></script>
       </Head>
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-FGWTDY8GW1" />
       <Script id="google-analytics">
@@ -32,8 +34,6 @@ export default function RootLayout({
           gtag('config', 'G-FGWTDY8GW1');
         `}
       </Script>
-      <Script src="//widget.manychat.com/114420448381528.js" defer={true}></Script>
-      <Script src="https://mccdn.me/assets/js/widget.js" defer={true}></Script>
       <body className={inter.className}>{children}</body>
     </html>
   )
