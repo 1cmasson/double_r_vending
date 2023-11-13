@@ -25,7 +25,7 @@ const About = () => {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-4 lg:sticky lg:top-1">
-            <div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
+            <div className="relative overflow-hidden rounded-3xl bg-gray-00 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
               <Image
                 className="absolute inset-0 h-full w-full object-cover"
                 alt="Reinaldo Alvarez, owner of Double R Vending"
@@ -33,7 +33,7 @@ const About = () => {
                 width={300}
                 height={300}
               />
-              <div className="absolute inset-0 bg-gray-700 mix-blend-multiply" />
+              <div className="absolute inset-0 bg-black opacity-30" />
               <figure className="relative isolate">
                 <svg
                   viewBox="0 0 162 128"
@@ -52,7 +52,7 @@ const About = () => {
                   Vending machines offer convenient availability of various essentials. Our emphasis on customer service ensures timely restocking for a smooth user experience.
                   </p>
                 </blockquote>
-                <figcaption className="mt-6 text-sm leading-6 text-gray-300">
+                <figcaption className="mt-6 text-sm leading-6 text-gray-200">
                   <strong className="font-semibold text-white">Reinaldo Alvarez ,</strong> Owner of Double R Vending
                 </figcaption>
               </figure>
