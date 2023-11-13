@@ -18,8 +18,8 @@ const App = () => {
           <CustomChat pageId="114420448381528" minimized={true}/>
         </FacebookProvider>  */}
         
-        <div id="fb-root"></div>
-        <div id="fb-customer-chat" className="fb-customerchat"/>
+        {/* <div id="fb-root"></div>
+        <div id="fb-customer-chat" className="fb-customerchat"/> */}
         <section id='about'>
           <Video/>
         </section>
