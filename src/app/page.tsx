@@ -14,12 +14,6 @@ const App = () => {
       <main>
         <Hero/>
         <TawkToWrapper/>
-        {/* <FacebookProvider appId="1729047264226575" chatSupport>
-          <CustomChat pageId="114420448381528" minimized={true}/>
-        </FacebookProvider>  */}
-        
-        {/* <div id="fb-root"></div>
-        <div id="fb-customer-chat" className="fb-customerchat"/> */}
         <section id='about'>
           <Video/>
         </section>

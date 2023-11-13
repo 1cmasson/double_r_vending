@@ -32,15 +32,6 @@ export default function RootLayout({
           gtag('config', 'G-FGWTDY8GW1');
         `}
       </Script>
-      <Script src="//widget.manychat.com/114420448381528.js" type="application/javascript" async defer></Script>
-      <Script src="https://mccdn.me/assets/js/widget.js" type="application/javascript" async defer></Script>
-      <Script id="">
-        {`
-          var chatbox = document.getElementById('fb-customer-chat');
-          chatbox.setAttribute("page_id", "114420448381528");
-          chatbox.setAttribute("attribution", "biz_inbox");
-        `}
-      </Script>
       <body className={inter.className}>
         {children}
       </body>
