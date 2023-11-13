@@ -5,8 +5,6 @@ import Video from './sections/video';
 import Partners from './sections/partners';
 import Contact from './sections/contact';
 import Footer from './sections/footer';
-// import { FacebookProvider, CustomChat } from 'react-facebook';
-// import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 const App = () => {
